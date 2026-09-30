@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#182b2c">
+  <meta name="description" content="Thiệp mời tham dự buổi lễ tốt nghiệp">
+  <title>Thư mời tốt nghiệp | Class of 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="snow-layer" id="snowLayer" aria-hidden="true"></div>
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Một chương khép lại, một hành trình bắt đầu <span></span></p>
+        <h1 id="page-title">The<br><em>Graduation</em><br>Letter</h1>
+        <p class="intro">Một lời mời được viết bằng tất cả niềm tự hào,<br>gửi đến những người đã luôn ở bên.</p>
+      </div>
+
+      <div class="letter-stage">
+        <p class="stage-note">Chạm để mở thư <span>↓</span></p>
+        <button class="envelope-button" id="envelopeButton" aria-label="Mở thư mời tốt nghiệp">
+          <span class="envelope-shadow"></span>
+          <span class="envelope">
+            <span class="envelope-back"></span>
+            <span class="letter-paper">
+              <span class="paper-mark">EST.</span>
+              <strong>YOU ARE<br>INVITED</strong>
+              <span class="paper-rule"></span>
+              <small>THE CLASS OF<br><b>2026</b></small>
+            </span>
+            <span class="envelope-front"></span>
+            <span class="envelope-flap"></span>
+            <span class="wax-seal">G</span>
+          </span>
+        </button>
+        <p class="letter-caption">An invitation to celebrate</p>
+      </div>
+
+      <div class="side-label">VOL. 01 &nbsp; / &nbsp; 2026</div>
+      <div class="scroll-cue"><span class="line"></span> KÉO XUỐNG</div>
+    </section>
+
+    <section class="invitation" id="invitation" aria-labelledby="invitation-title">
+      <div class="invitation-heading">
+        <p class="section-kicker">The commencement ceremony</p>
+        <h2 id="invitation-title">Một ngày<br><em>đáng nhớ</em></h2>
+        <p class="heading-note">Sự hiện diện của bạn là món quà<br>đẹp nhất trong ngày đặc biệt này.</p>
+      </div>
+
+      <div class="details-grid">
+        <article class="detail-card date-card">
+          <span class="detail-number">01</span>
+          <p class="detail-label">Ngày & thời gian</p>
+          <h3>Thứ Bảy<br><em>20.06.2026</em></h3>
+          <p class="detail-small">18:00 — Đón khách<br>18:30 — Nghi thức bắt đầu</p>
+        </article>
+        <article class="detail-card place-card">
+          <span class="detail-number">02</span>
+          <p class="detail-label">Địa điểm</p>
+          <h3>Grand Hall<br><em>Riverside</em></h3>
+          <p class="detail-small">18 Nguyễn Huệ, Quận 1<br>Thành phố Hồ Chí Minh</p>
+          <a class="map-link" href="https://maps.google.com" target="_blank" rel="noreferrer">Xem bản đồ <span>↗</span></a>
+        </article>
+        <article class="detail-card dress-card">
+          <span class="detail-number">03</span>
+          <p class="detail-label">Dress code</p>
+          <h3>Formal<br><em>& timeless</em></h3>
+          <p class="detail-small">Một chút thanh lịch,<br>một chút riêng bạn.</p>
+        </article>
+      </div>
+
+      <div class="rsvp-row">
+        <p>Hãy cùng chúng mình lưu lại<br>khoảnh khắc này nhé.</p>
+        <button class="rsvp-button" id="rsvpButton">Xác nhận tham dự <span>→</span></button>
+      </div>
+    </section>
+
+    <footer>
+      <span>With love,</span>
+      <strong>Class of 2026</strong>
+      <button class="music-toggle" id="musicToggle" aria-label="Bật nhạc nền"><span class="music-icon">♫</span> <span id="musicLabel">Bật nhạc</span></button>
+    </footer>
+  </main>
+
+  <dialog class="rsvp-dialog" id="rsvpDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Đóng">×</button>
+    <p class="section-kicker">Save the date</p>
+    <h2>Hẹn gặp bạn<br><em>ở buổi lễ nhé.</em></h2>
+    <p>Cảm ơn bạn đã cùng chúng mình viết nên chương đẹp nhất của tuổi trẻ.</p>
+    <a class="rsvp-button" href="mailto:dattranphu1114@gmail.com?subject=Xác nhận tham dự lễ tốt nghiệp">Gửi xác nhận <span>→</span></a>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
